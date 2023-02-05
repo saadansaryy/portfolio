@@ -86,81 +86,105 @@ function Education() {
       </h2>
       <div className="grid xs2:grid-cols-2 xl:grid-cols-4 gap-6 mx-10 ">
         {/* <!-- Certificate Cards --> */}
-
-        <div className="flex flex-col bg-[#ff0000b4] border-t-2 border-l-2  border-r-[6px] border-b-[6px] border-black shadow-lg shadow-slate-900 hover:shadow-md hover:shadow-slate-900 transition-shadow">
-          <a
-            href="https://certificates.almabetter.com/en/verify/32873092894627"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="relative overflow-hidden bg-no-repeat bg-cover border border-black flex justify-center items-center px-4 py-6 bg-white transition-all duration-500"
-          >
+        {/* Card 1 */}
+        <div className="relative overflow-hidden bg-no-repeat bg-cover cursor-pointer flex flex-col bg-slate-900 border-t-2 border-l-2  border-r-[6px] border-b-[6px] border-black shadow-lg shadow-slate-900 hover:shadow-md hover:shadow-slate-900 transition-shadow">
+          <div className="border border-black flex justify-center items-center px-4 py-6 bg-white ">
+            <img src={hrLogo} alt="" className="w-8 md:w-10" />
+          </div>
+          <div className="text-center p-4 text-white text-sm md:text-base">
+            <p className="opacity-90">JavaScript (Basic)</p>
+            <p className="text-sm opacity-70 font-thin">~Hackerrank</p>
+          </div>
+          <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed bg-black opacity-0 hover:opacity-95 flex flex-row justify-center items-center transition-all duration-500">
+            <a
+              href="https://www.hackerrank.com/certificates/84c898821c4b"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-mono border hover:py-1 px-2 text-white  transition-all duration-200"
+            >
+              Verify Credentials &rarr;
+            </a>
+          </div>
+        </div>
+        {/* Card 2 */}
+        <div className="relative overflow-hidden bg-no-repeat bg-cover cursor-pointer flex flex-col bg-[#ff0000b4] border-t-2 border-l-2  border-r-[6px] border-b-[6px] border-black shadow-lg shadow-slate-900 hover:shadow-md hover:shadow-slate-900 transition-shadow">
+          <div className="border border-black flex justify-center items-center px-4 py-6 bg-white ">
             <img src={almaLogo} alt="" className="w-32 md:w-40" />
-            <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed bg-black opacity-0 hover:opacity-95 flex flex-row justify-center items-center transition-all duration-500">
-              <p className="font-mono border hover:py-1 px-2 text-white  transition-all duration-200">
-                Verify Credentials &rarr;
-              </p>
-            </div>
-          </a>
+          </div>
           <div className="text-center p-4 text-white text-sm md:text-base">
             <p className="opacity-90">Introduction to React Ecosystem</p>
             <p className="text-sm opacity-70 font-thin">~AlmaBetter</p>
           </div>
+          <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed bg-black opacity-0 hover:opacity-95 flex flex-row justify-center items-center transition-all duration-500">
+            <a
+              href="https://certificates.almabetter.com/en/verify/32873092894627"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-mono border hover:py-1 px-2 text-white  transition-all duration-200"
+            >
+              Verify Credentials &rarr;
+            </a>
+          </div>
         </div>
-        <div className="flex flex-col bg-[#ff0000b4] border-t-2 border-l-2  border-r-[6px] border-b-[6px] border-black shadow-lg shadow-slate-900 hover:shadow-md hover:shadow-slate-900 transition-shadow">
-          <a
-            href="https://certificates.almabetter.com/en/verify/98386315348376"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="relative overflow-hidden bg-no-repeat bg-cover border border-black flex justify-center items-center px-4 py-6 bg-white transition-all duration-500"
-          >
-            <img src={almaLogo} alt="" className="w-32 md:w-40 " />
-            <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed bg-black opacity-0 hover:opacity-95 flex flex-row justify-center items-center transition-all duration-500">
-              <p className="font-mono border hover:py-1 px-2 text-white  transition-all duration-200">
-                Verify Credentials &rarr;
-              </p>
-            </div>
-          </a>
+        {/* Card 3 */}
+        <div className="relative overflow-hidden bg-no-repeat bg-cover cursor-pointer flex flex-col bg-[#ff0000b4] border-t-2 border-l-2  border-r-[6px] border-b-[6px] border-black shadow-lg shadow-slate-900 hover:shadow-md hover:shadow-slate-900 transition-shadow">
+          <div className="border border-black flex justify-center items-center px-4 py-6 bg-white ">
+            <img src={almaLogo} alt="" className="w-32 md:w-40" />
+          </div>
           <div className="text-center p-4 text-white text-sm md:text-base">
             <p className="opacity-90">Advanced React</p>
             <p className="text-sm opacity-70 font-thin">~AlmaBetter</p>
           </div>
+          <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed bg-black opacity-0 hover:opacity-95 flex flex-row justify-center items-center transition-all duration-500">
+            <a
+              href="https://certificates.almabetter.com/en/verify/98386315348376"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-mono border hover:py-1 px-2 text-white  transition-all duration-200"
+            >
+              Verify Credentials &rarr;
+            </a>
+          </div>
         </div>
-        <div className="flex flex-col bg-[#ff0000b4] border-t-2 border-l-2  border-r-[6px] border-b-[6px] border-black shadow-lg shadow-slate-900 hover:shadow-md hover:shadow-slate-900 transition-shadow">
-          <a
-            href="https://certificates.almabetter.com/en/verify/06993807067779"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="relative overflow-hidden bg-no-repeat bg-cover border border-black flex justify-center items-center px-4 py-6 bg-white transition-all duration-500"
-          >
-            <img src={almaLogo} alt="" className="w-32 md:w-40 " />
-            <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed bg-black opacity-0 hover:opacity-95 flex flex-row justify-center items-center transition-all duration-500">
-              <p className="font-mono border hover:py-1 px-2 text-white  transition-all duration-200">
-                Verify Credentials &rarr;
-              </p>
-            </div>
-          </a>
+        {/* Card 4 */}
+        <div className="relative overflow-hidden bg-no-repeat bg-cover cursor-pointer flex flex-col bg-[#ff0000b4] border-t-2 border-l-2  border-r-[6px] border-b-[6px] border-black shadow-lg shadow-slate-900 hover:shadow-md hover:shadow-slate-900 transition-shadow">
+          <div className="border border-black flex justify-center items-center px-4 py-6 bg-white ">
+            <img src={almaLogo} alt="" className="w-32 md:w-40" />
+          </div>
           <div className="text-center p-4 text-white text-sm md:text-base">
             <p className="opacity-90">JavaScript on the Browser</p>
             <p className="text-sm opacity-70 font-thin">~AlmaBetter</p>
           </div>
-        </div>
-        <div className="flex flex-col bg-[#ff0000b4] border-t-2 border-l-2  border-r-[6px] border-b-[6px] border-black shadow-lg shadow-slate-900 hover:shadow-md hover:shadow-slate-900 transition-shadow">
-          <a
-            href="https://certificates.almabetter.com/en/verify/28482607704179"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="relative overflow-hidden bg-no-repeat bg-cover border border-black flex justify-center items-center px-4 py-6 bg-white transition-all duration-500"
+          <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed bg-black opacity-0 hover:opacity-95 flex flex-row justify-center items-center transition-all duration-500"
           >
-            <img src={almaLogo} alt="" className="w-32 md:w-40 " />
-            <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed bg-black opacity-0 hover:opacity-95 flex flex-row justify-center items-center transition-all duration-500">
-              <p className="font-mono border hover:py-1 px-2 text-white  transition-all duration-200">
-                Verify Credentials &rarr;
-              </p>
-            </div>
-          </a>
+            <a
+              href="https://certificates.almabetter.com/en/verify/06993807067779"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-mono border hover:py-1 px-2 text-white  transition-all duration-200"
+            >
+              Verify Credentials &rarr;
+            </a>
+          </div>
+        </div>
+        {/* Card 5 */}
+        <div className="relative overflow-hidden bg-no-repeat bg-cover cursor-pointer flex flex-col bg-[#ff0000b4] border-t-2 border-l-2  border-r-[6px] border-b-[6px] border-black shadow-lg shadow-slate-900 hover:shadow-md hover:shadow-slate-900 transition-shadow">
+          <div className="border border-black flex justify-center items-center px-4 py-6 bg-white ">
+            <img src={almaLogo} alt="" className="w-32 md:w-40" />
+          </div>
           <div className="text-center p-4 text-white text-sm md:text-base">
-            <p className="opacity-90">Node.js & ExpressJS</p>
+            <p className="opacity-90">Node.js & Express.js</p>
             <p className="text-sm opacity-70 font-thin">~AlmaBetter</p>
+          </div>
+          <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed bg-black opacity-0 hover:opacity-95 flex flex-row justify-center items-center transition-all duration-500">
+            <a
+              href="https://certificates.almabetter.com/en/verify/28482607704179"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-mono border hover:py-1 px-2 text-white  transition-all duration-200"
+            >
+              Verify Credentials &rarr;
+            </a>
           </div>
         </div>
       </div>
